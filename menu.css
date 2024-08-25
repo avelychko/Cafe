@@ -1,0 +1,23 @@
+#items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    padding: 20px;
+    margin: 0 25%;
+}
+
+.item {
+    color: #3B2F2A; /* Espresso Black */
+    padding: 10px;
+    width: calc(50% - 15px); 
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 10px; 
+}
+
+.item img {
+    width: 80%; 
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
